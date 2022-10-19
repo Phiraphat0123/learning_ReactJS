@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #e9ebee;
+  color: #1d2129;
+}
+
+
+/* input */
+
+.Input{
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #e9ebee;
+  width: 40%;
+}
+
+.Input__header{
+  margin:auto;
+  width: fit-content;
+ color:#46a0e6;
+ 
+}
+
+.Input__header h1{
+  
+  font-size: 50px;
+  font-family: Verdana,Sans-serif;
+}
+
+.Input__field{
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+  width: 100%;
+  border:#e9ebee;
+  background:#e9ebee;
+  border-bottom: 2px solid rgb(102, 102, 102);
+  font-size: 20px;
+}
+
+.Input__field:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(34, 122, 254);
+}
+/* Page */
+
+.Page{
+  margin:auto;
+  width: 70%;
+}
+
+.Page__field{
+  width: 100%;
+  display: flex;
+  margin-bottom:30px;
+}
+
+.Page__firstPhoto{
+  padding: 20px;
+  width:35%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Page__firstPhoto img{
+  margin-top: 18px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.Page__info{
+  padding: 20px;
+  width:65%;
+  height: 100%;
+  font-size: 15px;
+  color: #393a3c;
+}
+
+.info__description{
+  margin-bottom: 2px;
+}
+
+.info_title{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #1d2129;
+  text-decoration: none;
+}
+
+.Page__photos {
+  display: flex;
+}
+
+.Page__photos img {
+  margin: 2px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.Page__tags{
+  display: flex;
+  text-align: center;
+  margin: 10px;
+}
+
+.Page__tags h5{
+  width: fit-content;
+  height: fit-content;
+  font-size: 15px;
+  color: #515356;
+}
+
+.Page__tag ,a{
+  width: fit-content;
+  height: fit-content;
+  padding-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 13px;
+  text-decoration: none;
+  color:#5c5d60;
+  text-decoration: underline;
+}
+
+.Page__tag,a:hover{
+  color: #030303;
+}
+
+.info__link{
+  display: inline;
+  color: #2ab3d5;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.info__link:hover{
+  color: #0f829f;
+}
+
+
+
+
